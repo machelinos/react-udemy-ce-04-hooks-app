@@ -1,10 +1,10 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Layout } from './06-useLayoutEffect/Layout'
 import './index.css'
-import { FormFocus } from './05-useRef/FormFocus'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <FormFocus />,
+  <Layout />,
   //</React.StrictMode>,
 )
