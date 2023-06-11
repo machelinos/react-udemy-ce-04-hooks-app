@@ -1,10 +1,10 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { MultipleCustomHooks } from './04-examples/MultipleCustomHooks'
+import { FormFocus } from './05-useRef/FormFocus'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <MultipleCustomHooks />,
+  <FormFocus />,
   //</React.StrictMode>,
 )

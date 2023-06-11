@@ -26,6 +26,7 @@ export const useFetch = (url) => {
     fetchUrl().then((data) => {
       setState({ ...state, data, isLoading: false })
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url])
 
   return {
