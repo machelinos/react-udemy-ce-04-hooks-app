@@ -1,10 +1,9 @@
-// import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Memorize } from './07-memos/Memorize'
+import { MemoHook } from './07-memos/MemoHook'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <Memorize />,
+  <MemoHook />,
   //</React.StrictMode>,
 )
