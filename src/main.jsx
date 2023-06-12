@@ -1,9 +1,9 @@
 import ReactDOM from 'react-dom/client'
-import { MemoHook } from './07-memos/MemoHook'
+import { CallbackHook } from './07-memos/CallbackHook'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <MemoHook />,
+  <CallbackHook />,
   //</React.StrictMode>,
 )
