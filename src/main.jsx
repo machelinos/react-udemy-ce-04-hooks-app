@@ -1,10 +1,10 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Layout } from './06-useLayoutEffect/Layout'
+import { Memorize } from './07-memos/Memorize'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <Layout />,
+  <Memorize />,
   //</React.StrictMode>,
 )
