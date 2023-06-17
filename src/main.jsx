@@ -1,10 +1,9 @@
 import ReactDOM from 'react-dom/client'
-import './09-useReducer/intro-reducer'
+import { TodoApp } from './09-useReducer/TodoApp'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root'))
-  .render
+ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  //<Padre />,
+  <TodoApp />,
   //</React.StrictMode>,
-  ()
+)
