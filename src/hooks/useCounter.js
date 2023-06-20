@@ -4,7 +4,7 @@ export const useCounter = (initialValue = 10, step = 1) => {
   const [count, setCount] = useState(initialValue)
 
   const handleAdd = () => {
-    setCount(count + step)
+    setCount((current) => current + step)
   }
 
   const handleReset = () => {
@@ -12,7 +12,7 @@ export const useCounter = (initialValue = 10, step = 1) => {
   }
 
   const handleSubstract = () => {
-    setCount(count - step)
+    setCount((current) => current - step)
   }
 
   return {
