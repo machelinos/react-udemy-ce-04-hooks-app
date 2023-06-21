@@ -22,11 +22,11 @@ export const Card = ({ data }) => {
         </h5>
         <p>{JSON.stringify(bounds)}</p>
         <p className="card-text">
-          <strong>Species:</strong> {species}
+          <strong>Species:</strong> <span>{species}</span>
           <br />
-          <strong>Gender:</strong> {gender}
+          <strong>Gender:</strong> <span>{gender}</span>
           <br />
-          <strong>Status:</strong> {status}
+          <strong>Status:</strong> <span>{status}</span>
           <br />
         </p>
       </div>

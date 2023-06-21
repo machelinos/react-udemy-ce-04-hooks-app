@@ -5,11 +5,12 @@ import './index.css'
 import { AboutPage } from './10-useContext/AboutPage'
 import { HomePage } from './10-useContext/Homepage'
 import { LoginPage } from './10-useContext/LoginPage'
+import { MultipleCustomHooks } from './04-examples/MultipleCustomHooks'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainApp />,
+    element: <MultipleCustomHooks />,
     children: [
       {
         path: '/',
