@@ -11,7 +11,7 @@ import { TodoApp } from './09-useReducer/TodoApp'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <TodoApp />,
+    element: <HomePage />,
     children: [
       {
         path: '/',

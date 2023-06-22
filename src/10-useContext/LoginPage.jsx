@@ -6,10 +6,12 @@ export const LoginPage = () => {
 
   return (
     <>
-      <h1>Login Page {user.name}</h1>
+      <h1>
+        Login Page <span>{user.name}</span>
+      </h1>
       <hr />
 
-      <pre>{JSON.stringify(user)}</pre>
+      <pre aria-label="pre">{JSON.stringify(user)}</pre>
 
       <button
         className="btn btn-primary"
