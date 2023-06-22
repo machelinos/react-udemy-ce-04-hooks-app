@@ -6,11 +6,12 @@ import { AboutPage } from './10-useContext/AboutPage'
 import { HomePage } from './10-useContext/Homepage'
 import { LoginPage } from './10-useContext/LoginPage'
 import { MultipleCustomHooks } from './04-examples/MultipleCustomHooks'
+import { TodoApp } from './09-useReducer/TodoApp'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MultipleCustomHooks />,
+    element: <TodoApp />,
     children: [
       {
         path: '/',
